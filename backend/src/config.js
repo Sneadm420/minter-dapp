@@ -11,33 +11,20 @@ const namePrefix = "YOUR COLLECTION NAME";
 const description = "Remember to replace this description";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
-const layerConfigurations = [
-  {
-    growEditionSizeTo: 5,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
-    ],
-  },
-];
+const layerConfigurations = 
 
-const shuffleLayerConfigurations = true;
+ shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 3000,
+  height: 3000,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://snead.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
